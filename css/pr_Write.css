@@ -1,0 +1,29 @@
+.container {position: relative; max-width: 1200px; margin: 0 auto;}
+/*상단 bg*/
+.aboutus_bg {background: url(../img/pr_bg.png) no-repeat; background-size: cover; height: 400px; margin-top:70px;}
+.aboutus_bg h2 {font-size: 46px; color: #f5f5f5; text-align: center; font-family: 'Nanumsquare' , sans-serif !important; font-weight: 700; padding-top: 140px;}
+.aboutus_bg p {font-family: 'Nanumsquare' , sans-serif !important; color: #f1f1f1; font-size: 17px; letter-spacing: -0.68px; text-align: center; font-weight: 400; padding-top: 20px;}
+
+/*고정 메뉴탭*/
+.menu_tap {position: relative;}
+.menu_tap ul {position: absolute; top: -25px; height: 60px; background-color: #fff; border-radius: 30px; box-shadow: 0 3px 6px 0 rgba(14, 45, 100, 0.16); left: 50%; transform: translate(-50%); width: 584px; text-align: center;}
+.menu_tap ul:after {content:""; display: block; clear: both;}
+.menu_tap ul li {float:left; width: 33.33%; line-height: 60px; position: relative;}
+.menu_tap ul li:nth-child(2):after {content:""; position: absolute; width: 1px; height: 30px; border: 0px solid #dcdcdc; right: 0; top: 15.5px; background:#dcdcdc;}
+.menu_tap ul li:nth-child(2):before {content:""; position: absolute; width: 1px; height: 30px; border: 0px solid #dcdcdc; left: 0; top: 15.5px; background:#dcdcdc;}
+.menu_tap ul li a {font-size: 16px; color: #646464; letter-spacing: -0.64px; font-family: 'Noto Sans KR', sans-serif !important; text-decoration: none; font-weight: normal; display: block;}
+.menu_tap ul li.on a {color: #006496; font-weight: 500; }
+
+.content .write {padding-top: 150px; }
+.content .write .write_info {padding-bottom:40px;  border-bottom: solid 1px #dcdcdc;}
+.content .write h2 {font-size: 36px; letter-spacing: -0.72px; color: #343434; font-family:'NanumSquare', sans-serif !important; font-weight:700;}
+.content .write span {font-size:16px; letter-spacing: -0.64px; color: #999; margin-top: 15px; font-family: 'Noto Sans KR' , sans-serif !important; display: inline-block;}
+.content .write .date {position: relative;}
+.content .write .date:after {display:block; content:""; width:1px; height: 12px; background: #dcdcdc; position:absolute; right: -15.5px; top:5px;}
+.content .write .view {padding-left: 25px;}
+.content .write .write_text {padding-bottom: 60px; border-bottom:1px solid #dcdcdc;}
+.content .write .write_text img {padding: 60px 0px;}
+.content .write .write_text .text {width: 90%;}
+.content .write .write_text .text p {font-size: 16px; letter-spacing:-0.64px; color: #646464; font-family: 'Noto Sans KR' , sans-serif !important; line-height: 26px;}
+.content .write .listUp:after {display:block; clear:both; content:"";}
+.content .write .go_list { margin-top: 40px; margin-bottom: 120px; float:right; width: 160px; height: 50px; line-height: 50px; text-align:center; border-radius: 10px; background-color: #666; display: block; font-size: 14px; color: #fff; font-family: 'Noto Sans KR' , sans-serif !important; font-weight:400;}

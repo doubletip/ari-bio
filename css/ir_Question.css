@@ -1,0 +1,35 @@
+.container {position: relative; max-width: 1200px; margin: 0 auto;}
+/*상단 bg*/
+.aboutus_bg {background: url(../img/ir_bg.png) no-repeat; background-size: cover; height: 400px; margin-top:70px;}
+.aboutus_bg h2 {font-size: 46px; color: #f5f5f5; text-align: center; font-family: 'Nanumsquare' , sans-serif !important; font-weight: 700; padding-top: 140px;}
+.aboutus_bg p {font-family: 'Nanumsquare' , sans-serif !important; color: #f1f1f1; font-size: 17px; letter-spacing: -0.68px; text-align: center; font-weight: 400; padding-top: 20px;}
+
+/*고정 메뉴탭*/
+.menu_tap {position: relative;}
+.menu_tap ul {position: absolute; top: -25px; height: 60px; background-color: #fff; border-radius: 30px; box-shadow: 0 3px 6px 0 rgba(14, 45, 100, 0.16); left: 50%; transform: translate(-50%); width: 584px; text-align: center;}
+.menu_tap ul:after {content:""; display: block; clear: both;}
+.menu_tap ul li {float:left; width: 33.33%; line-height: 60px; position: relative;}
+.menu_tap ul li:nth-child(2):after {content:""; position: absolute; width: 1px; height: 30px; border: 0px solid #dcdcdc; right: 0; top: 15.5px; background:#dcdcdc;}
+.menu_tap ul li:nth-child(2):before {content:""; position: absolute; width: 1px; height: 30px; border: 0px solid #dcdcdc; left: 0; top: 15.5px; background:#dcdcdc;}
+.menu_tap ul li a {font-size: 16px; color: #646464; letter-spacing: -0.64px; font-family: 'Noto Sans KR', sans-serif !important; text-decoration: none; font-weight: normal; display: block;}
+.menu_tap ul li.on a {color: #006496; font-weight: 500; }
+
+.content .agree_box {margin-top: 90px; background:#f5f5f5; border:1px solid #dcdcdc; border-radius:15px; padding-top: 30px; padding-bottom: 30px; padding-left: 35px; height: 210px; overflow:auto; font-size: 14px; letter-spacing: -0.54px; line-height: 24px; color:#646464; font-family: 'Noto Sans KR', sans-serif !important;}
+.content .box_container {padding-bottom: 40px; border-bottom:1px solid #dcdcdc; max-width:840px; margin:0 auto;}
+.content .check_text {margin-top:20px; position:relative;}
+.content .check_text p {font-size:16px;  color:#646464; letter-spacing:-0.64px; font-family: 'Noto Sans KR', sans-serif !important; margin-right:130px; text-align:right;}
+.content .check_text p span {color:#006496;}
+.content .check_button {position:absolute; right:0px; top:0; font-family: 'Noto Sans KR', sans-serif !important; font-size: 16px; color:#646464; letter-spacing:-0.64px; }
+.content .input_info { max-width:840px; margin:0 auto; margin-top: 40px; margin-bottom:120px;}
+.content .input_info .input_line_1 {display:flex; justify-content: space-between; margin-bottom:20px;}
+.content .input_info .input_line_1 input {width:403px; height:50px; background: #f5f5f5; border:1px solid #dcdcdc; border-radius:10px; font-size:14px; color:#999; font-family: 'Nanumsquare', sans-serif !important; padding-left:35px;}
+.content .input_info .input_line_2 {display:flex; justify-content: space-between; margin-bottom:20px;}
+.content .input_info .input_line_2 input {width:403px; height:50px; background: #f5f5f5; border:1px solid #dcdcdc; border-radius:10px; font-size:14px; color:#999; font-family: 'Nanumsquare', sans-serif !important; padding-left:35px;}
+.content .input_info .input_line_3 {margin-bottom:20px;}
+.content .input_info .input_line_3 input {width:840px; height:50px; background: #f5f5f5; border:1px solid #dcdcdc; border-radius:10px; font-size:14px; color:#999; font-family: 'Nanumsquare', sans-serif !important; padding-left:35px;}
+.content .input_info .input_line_4 {}
+.content .input_info .input_line_4 textarea {width: 840px; background:#f5f5f5; border:1px solid #dcdcdc; border-radius:10px; font-size:14px; color:#999; font-family: 'Nanumsquare', sans-serif !important; padding-left:35px; padding-top:20px;}
+.content .submit {width: 160px; height:50px; background:#666; color:#fff; border-radius:10px; line-height:50px; text-align:center; margin: 0 auto; display: block; margin-top:60px;}
+
+
+

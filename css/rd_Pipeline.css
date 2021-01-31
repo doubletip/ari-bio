@@ -1,0 +1,47 @@
+.container {position: relative; max-width: 1200px; margin: 0 auto;}
+/*상단 bg*/
+.aboutus_bg {background: url(../img/rd_bg.png) no-repeat; background-size: cover; height: 400px; margin-top: 70px;}
+.aboutus_bg h2 {font-size: 46px; color: #f5f5f5; text-align: center; font-family: 'Nanumsquare' , sans-serif !important; font-weight: 700; padding-top: 140px;}
+.aboutus_bg p {font-family: 'Nanumsquare' , sans-serif !important; color: #f1f1f1; font-size: 17px; letter-spacing: -0.68px; text-align: center; font-weight: 400; padding-top: 20px;}
+
+/*고정 메뉴탭*/
+.menu_tap {position: relative;}
+.menu_tap ul {position: absolute; top: -25px; height: 60px; background-color: #fff; border-radius: 30px; box-shadow: 0 3px 6px 0 rgba(14, 45, 100, 0.16); left: 50%; transform: translate(-50%); width: 584px; text-align: center;}
+.menu_tap ul:after {content:""; display: block; clear: both;}
+.menu_tap ul li {float:left; width: 50%; line-height: 60px; position: relative;}
+.menu_tap ul li:nth-child(2):before {content:""; position: absolute; width: 1px; height: 30px; border: 0px solid #dcdcdc; left: 0; top: 15.5px; background:#dcdcdc;}
+.menu_tap ul li a {font-size: 16px; color: #646464; letter-spacing: -0.64px; font-family: 'Noto Sans KR', sans-serif !important; text-decoration: none; font-weight: normal; display: block;}
+.menu_tap ul li.on a {color: #006496; font-weight: 500; }
+
+.content {}
+.content .main_txt {padding-top: 150px;}
+.content .main_txt ul {}
+.content .main_txt ul:after {display: block; clear: both; content:"";}
+.content .main_txt ul li {float: left;}
+.content .main_txt ul li h3 {font-size: 36px; line-height: 36px; letter-spacing: -0.72px; color: #343434; padding-top: 110px; font-family: 'Nanumsquare' , sans-serif !important; font-weight: 700;}
+.content .main_txt ul li p {font-size: 16px; line-height: 26px; letter-spacing: -0.64px; color: #646464; padding-top: 30px; font-family: 'Noto Sans KR' , sans-serif !important; font-weight: 400;}
+.content .main_txt ul li img {padding-left: 163px;}
+
+.content .pipe_table {margin-top: 120px;}
+.content .pipe_table.last {margin-bottom: 120px;}
+.content .table1:after {content:""; display:block; border-bottom: 1px solid #dcdcdc; padding-top: 120px; width: 100%;}
+.content .pipe_table p {font-size: 30px; line-height: 28px; letter-spacing: -1.2px;color: #343434; font-family: 'Noto Sans KR', sans-serif !important;}
+.content .pipe_table table {width: 100%; margin-top: 20px; border-top: 1px solid #707070;}
+.content .pipe_table tr {}
+.content .pipe_table tr.font-noto {font-family: 'Noto Sans KR', sans-serif !important; font-size: 17px; line-height: 28px; letter-spacing: -0.68px;font-weight: 500; color:#343434;}
+.content .pipe_table tr.font-noto td {border-right:none; }
+.content .pipe_table tr td {width: 8%; border-right: 1px solid #dcdcdc; position: relative;}
+.content .pipe_table tr td:last-child {border-right: none;}
+.content .pipe_table tr td.big {width: 16%;}
+.content .pipe_table tr td.pd {padding-left: 40px; padding-top: 25px; padding-bottom: 25px; vertical-align: middle;}
+.content .pipe_table tr td.pb {padding-top: 40px; padding-bottom: 34px;}
+.content .pipe_table tr td.check {text-align: center; vertical-align: middle;}
+.content .pipe_table tr td.arrow img {position: absolute; top: 30px; left: 15px;}
+.content .pipe_table tr td.ptb {padding-top: 30px; padding-bottom: 15px;}
+.content .pipe_table tr td.txc {text-align: center;}
+.content .pipe_table tr td.bdt {border-top:1px solid #dcdcdc;}
+.content .pipe_table tr td.arrow-m {vertical-align: middle; padding-left: 15px;}
+.content .pipe_table tr td.tb-arrow img {position: absolute; top: 30px; left: 15px;}
+.content .pipe_table tr td.font-roboto {font-family: 'Roboto', sans-serif !important; font-size: 18px; line-height: 28px; font-weight: 500; color: #343434; padding-bottom: 25px; padding-top: 25px;}
+.content .pipe_table tr td.font-robotoR {font-family: 'Roboto', sans-serif !important; font-size: 16px; line-height: 28px; font-weight: 400; color: #646464; }
+.content .pipe_table tr td.dstans {vertical-align: middle;}

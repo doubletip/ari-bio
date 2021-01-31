@@ -1,0 +1,44 @@
+.container {position: relative; max-width: 1200px; margin: 0 auto;}
+/*상단 bg*/
+.aboutus_bg {background: url(../img/ir_bg.png) no-repeat; background-size: cover; height: 400px; margin-top:70px;}
+.aboutus_bg h2 {font-size: 46px; color: #f5f5f5; text-align: center; font-family: 'Nanumsquare' , sans-serif !important; font-weight: 700; padding-top: 140px;}
+.aboutus_bg p {font-family: 'Nanumsquare' , sans-serif !important; color: #f1f1f1; font-size: 17px; letter-spacing: -0.68px; text-align: center; font-weight: 400; padding-top: 20px;}
+
+/*고정 메뉴탭*/
+.menu_tap {position: relative;}
+.menu_tap ul {position: absolute; top: -25px; height: 60px; background-color: #fff; border-radius: 30px; box-shadow: 0 3px 6px 0 rgba(14, 45, 100, 0.16); left: 50%; transform: translate(-50%); width: 584px; text-align: center;}
+.menu_tap ul:after {content:""; display: block; clear: both;}
+.menu_tap ul li {float:left; width: 33.33%; line-height: 60px; position: relative;}
+.menu_tap ul li:nth-child(2):after {content:""; position: absolute; width: 1px; height: 30px; border: 0px solid #dcdcdc; right: 0; top: 15.5px; background:#dcdcdc;}
+.menu_tap ul li:nth-child(2):before {content:""; position: absolute; width: 1px; height: 30px; border: 0px solid #dcdcdc; left: 0; top: 15.5px; background:#dcdcdc;}
+.menu_tap ul li a {font-size: 16px; color: #646464; letter-spacing: -0.64px; font-family: 'Noto Sans KR', sans-serif !important; text-decoration: none; font-weight: normal; display: block;}
+.menu_tap ul li.on a {color: #006496; font-weight: 500; }
+
+.content .notice {padding-top: 150px; padding-bottom: 120px;}
+.content .notice table {width: 100%;}
+.content .notice table tr {border-bottom: 1px solid #c8c8c8;}
+.content .notice table tr td.date_time {width: 15%; text-align: center; padding-top: 31px; padding-bottom: 30px; vertical-align: top;}
+.content .notice table tr td.notice_content {width: 70%; font-family: 'Noto Sans KR' ,sans-serif !important; padding-top: 23.5px;  padding-bottom: 36.5px; vertical-align: top; }
+.content .notice table tr td.clickbtn {width: 15%; padding-top: 32px; text-align: center;}
+.content .notice table tr td {}
+.content .notice table tr td .date {font-size: 40px; line-height: 0.63; letter-spacing: -1.6px; color: #c8c8c8; font-family: 'Roboto', sans-serif !important; font-weight: 700;}
+.content .notice table tr td .m_y {font-size: 18px; line-height: 1.39; color: #c8c8c8; font-family: 'Roboto', sans-serif !important; font-weight: 400; padding-top: 5px;}
+.content .notice table tr td h4 {font-size: 20px; line-height: 25px; letter-spacing: -0.8px; color: #343434;}
+.content .notice table tr td .post_txt {font-size: 16px; line-height: 25px; letter-spacing: -0.64px; color: #646464; padding-top: 11px;}
+.content .notice table tr td img {}
+
+.content .notice .pagenate {padding-top: 60px; text-align: center;}
+.content .notice .pagenate a {text-decoration: none; padding: 10px; font-weight: 600; font-family: 'Titillium Web' ,sans-serif !important; font-size: 17px; text-align: center; line-height: 70px; color: #343434;}
+.content .notice .pagenate a:hover {color: #006496; border-bottom: 2px solid #006496; }
+
+.content .notice .search {width: 100%; padding-top: 60px;}
+.content .notice .search form {background-color: #f6f6f6; width: 456px; margin: 0 auto; text-align: center;}
+.content .notice .search form fieldset {position: relative; margin: 0; padding: 0; border: none;}
+.content .notice .search form legend {display: none;}
+.content .notice .search form ul {display: table; width: 100%; margin: 0; padding: 0; list-style: none;}
+.content .notice .search form ul li {display: table-cell; position: relative;}
+.content .notice .search form ul input[type=text] {height: 60px; width: 100%; border: none; font-size: 15px; line-height: 60px; letter-spacing: -0.3px; color: #787878; font-family: 'Noto Sans KR', sans-serif !important; background-color: #f6f6f6; padding-left: 20px;}
+.content .notice .search form ul .button {width: 60px; padding: 0;}
+/*.content .notice .search form ul button {position: relative; width: 60px; height: 60px; margin: 0; padding:0; border: none; text-indent: -9999px; background: none;}
+.content .notice .search form ul button:before {content:""; position: absolute; top: 0; left: 0; width: 21px; height: 21px; line-height: 60px; text-align: center; text-indent: 0; background: url(../image/search.png) no-repeat center;}*/
+.content .notice .search form ul button {position: relative; width: 60px; height: 60px; border: none; background: url(../img/search.png) no-repeat center; text-align: center; text-indent: -9999px; line-height: 60px; background-size: 21px 21px;}
